@@ -17,9 +17,9 @@ package searcher
 import (
 	"reflect"
 
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/search"
-	"github.com/blevesearch/bleve/size"
+	"github.com/bpizzi/bleve/index"
+	"github.com/bpizzi/bleve/search"
+	"github.com/bpizzi/bleve/size"
 )
 
 var reflectStaticSizeFilteringSearcher int

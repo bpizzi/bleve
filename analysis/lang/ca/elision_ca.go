@@ -17,9 +17,9 @@ package ca
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/analysis/token/elision"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/bpizzi/bleve/analysis"
+	"github.com/bpizzi/bleve/analysis/token/elision"
+	"github.com/bpizzi/bleve/registry"
 )
 
 const ElisionName = "elision_ca"

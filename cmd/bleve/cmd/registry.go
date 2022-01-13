@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/blevesearch/bleve/registry"
+	"github.com/bpizzi/bleve/registry"
 	"github.com/spf13/cobra"
 )
 

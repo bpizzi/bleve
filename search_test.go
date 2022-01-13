@@ -24,22 +24,22 @@ import (
 	"testing"
 	"time"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/analysis/analyzer/custom"
-	"github.com/blevesearch/bleve/analysis/analyzer/keyword"
-	"github.com/blevesearch/bleve/analysis/analyzer/standard"
-	"github.com/blevesearch/bleve/analysis/token/length"
-	"github.com/blevesearch/bleve/analysis/token/lowercase"
-	"github.com/blevesearch/bleve/analysis/token/shingle"
-	"github.com/blevesearch/bleve/analysis/tokenizer/single"
-	"github.com/blevesearch/bleve/analysis/tokenizer/whitespace"
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index/scorch"
-	"github.com/blevesearch/bleve/index/upsidedown"
-	"github.com/blevesearch/bleve/mapping"
-	"github.com/blevesearch/bleve/search"
-	"github.com/blevesearch/bleve/search/highlight/highlighter/html"
-	"github.com/blevesearch/bleve/search/query"
+	"github.com/bpizzi/bleve/analysis"
+	"github.com/bpizzi/bleve/analysis/analyzer/custom"
+	"github.com/bpizzi/bleve/analysis/analyzer/keyword"
+	"github.com/bpizzi/bleve/analysis/analyzer/standard"
+	"github.com/bpizzi/bleve/analysis/token/length"
+	"github.com/bpizzi/bleve/analysis/token/lowercase"
+	"github.com/bpizzi/bleve/analysis/token/shingle"
+	"github.com/bpizzi/bleve/analysis/tokenizer/single"
+	"github.com/bpizzi/bleve/analysis/tokenizer/whitespace"
+	"github.com/bpizzi/bleve/document"
+	"github.com/bpizzi/bleve/index/scorch"
+	"github.com/bpizzi/bleve/index/upsidedown"
+	"github.com/bpizzi/bleve/mapping"
+	"github.com/bpizzi/bleve/search"
+	"github.com/bpizzi/bleve/search/highlight/highlighter/html"
+	"github.com/bpizzi/bleve/search/query"
 )
 
 func TestSearchResultString(t *testing.T) {
@@ -432,7 +432,7 @@ func TestMemoryNeededForSearchResult(t *testing.T) {
 	}
 }
 
-// https://github.com/blevesearch/bleve/issues/954
+// https://github.com/bpizzi/bleve/issues/954
 func TestNestedBooleanSearchers(t *testing.T) {
 	// create an index with a custom analyzer
 	idxMapping := NewIndexMapping()
@@ -1625,7 +1625,7 @@ func TestGeoDistanceIssue1301(t *testing.T) {
 	// Not setting "Field" for the following query, targets it against the _all
 	// field and this is returning inconsistent results, when there's another
 	// field indexed along with the geopoint which is numeric.
-	// As reported in: https://github.com/blevesearch/bleve/issues/1301
+	// As reported in: https://github.com/bpizzi/bleve/issues/1301
 	lat, lon := 22.371154, 114.112603
 	q := NewGeoDistanceQuery(lon, lat, "1km")
 

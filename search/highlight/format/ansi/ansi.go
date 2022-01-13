@@ -15,8 +15,8 @@
 package ansi
 
 import (
-	"github.com/blevesearch/bleve/registry"
-	"github.com/blevesearch/bleve/search/highlight"
+	"github.com/bpizzi/bleve/registry"
+	"github.com/bpizzi/bleve/search/highlight"
 )
 
 const Name = "ansi"

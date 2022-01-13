@@ -17,11 +17,11 @@ package bleve
 import (
 	"context"
 
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/store"
-	"github.com/blevesearch/bleve/mapping"
-	"github.com/blevesearch/bleve/size"
+	"github.com/bpizzi/bleve/document"
+	"github.com/bpizzi/bleve/index"
+	"github.com/bpizzi/bleve/index/store"
+	"github.com/bpizzi/bleve/mapping"
+	"github.com/bpizzi/bleve/size"
 )
 
 // A Batch groups together multiple Index and Delete

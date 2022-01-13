@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index/store"
-	"github.com/blevesearch/bleve/size"
+	"github.com/bpizzi/bleve/document"
+	"github.com/bpizzi/bleve/index/store"
+	"github.com/bpizzi/bleve/size"
 )
 
 var reflectStaticSizeTermFieldDoc int

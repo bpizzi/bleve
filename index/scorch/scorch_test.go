@@ -26,13 +26,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/analysis/analyzer/keyword"
-	"github.com/blevesearch/bleve/analysis/analyzer/standard"
-	regexpTokenizer "github.com/blevesearch/bleve/analysis/tokenizer/regexp"
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/mapping"
+	"github.com/bpizzi/bleve/analysis"
+	"github.com/bpizzi/bleve/analysis/analyzer/keyword"
+	"github.com/bpizzi/bleve/analysis/analyzer/standard"
+	regexpTokenizer "github.com/bpizzi/bleve/analysis/tokenizer/regexp"
+	"github.com/bpizzi/bleve/document"
+	"github.com/bpizzi/bleve/index"
+	"github.com/bpizzi/bleve/mapping"
 )
 
 func init() {
@@ -2057,7 +2057,7 @@ func TestIndexDocumentVisitFieldTermsWithMultipleFieldOptions(t *testing.T) {
 }
 
 func TestAllFieldWithDifferentTermVectorsEnabled(t *testing.T) {
-	// Based on https://github.com/blevesearch/bleve/issues/895 from xeizmendi
+	// Based on https://github.com/bpizzi/bleve/issues/895 from xeizmendi
 	cfg := CreateConfig("TestAllFieldWithDifferentTermVectorsEnabled")
 	err := InitTest(cfg)
 	if err != nil {

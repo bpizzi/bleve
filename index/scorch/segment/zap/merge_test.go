@@ -23,9 +23,9 @@ import (
 	"testing"
 
 	"github.com/RoaringBitmap/roaring"
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index"
+	"github.com/bpizzi/bleve/analysis"
+	"github.com/bpizzi/bleve/document"
+	"github.com/bpizzi/bleve/index"
 )
 
 func TestMerge(t *testing.T) {

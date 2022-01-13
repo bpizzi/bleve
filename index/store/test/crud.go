@@ -17,7 +17,7 @@ package test
 import (
 	"testing"
 
-	"github.com/blevesearch/bleve/index/store"
+	"github.com/bpizzi/bleve/index/store"
 )
 
 // basic crud tests

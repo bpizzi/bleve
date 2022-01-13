@@ -17,9 +17,9 @@ package upsidedown
 import (
 	"reflect"
 
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/store"
+	"github.com/bpizzi/bleve/document"
+	"github.com/bpizzi/bleve/index"
+	"github.com/bpizzi/bleve/index/store"
 )
 
 var reflectStaticSizeIndexReader int

@@ -17,9 +17,9 @@ package index
 import (
 	"reflect"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/size"
+	"github.com/bpizzi/bleve/analysis"
+	"github.com/bpizzi/bleve/document"
+	"github.com/bpizzi/bleve/size"
 )
 
 var reflectStaticSizeAnalysisResult int

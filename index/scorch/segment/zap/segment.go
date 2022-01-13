@@ -24,8 +24,8 @@ import (
 	"unsafe"
 
 	"github.com/RoaringBitmap/roaring"
-	"github.com/blevesearch/bleve/index/scorch/segment"
-	"github.com/blevesearch/bleve/size"
+	"github.com/bpizzi/bleve/index/scorch/segment"
+	"github.com/bpizzi/bleve/size"
 	"github.com/couchbase/vellum"
 	mmap "github.com/edsrzf/mmap-go"
 	"github.com/golang/snappy"

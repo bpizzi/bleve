@@ -17,7 +17,7 @@ package moss
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/index/store"
+	"github.com/bpizzi/bleve/index/store"
 
 	"github.com/couchbase/moss"
 )

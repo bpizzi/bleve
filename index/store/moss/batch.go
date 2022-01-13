@@ -17,7 +17,7 @@ package moss
 import (
 	"github.com/couchbase/moss"
 
-	"github.com/blevesearch/bleve/index/store"
+	"github.com/bpizzi/bleve/index/store"
 )
 
 type Batch struct {

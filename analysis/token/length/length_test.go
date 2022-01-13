@@ -17,7 +17,7 @@ package length
 import (
 	"testing"
 
-	"github.com/blevesearch/bleve/analysis"
+	"github.com/bpizzi/bleve/analysis"
 )
 
 func TestLengthFilter(t *testing.T) {

@@ -22,7 +22,7 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/blevesearch/bleve/size"
+	"github.com/bpizzi/bleve/size"
 	"github.com/golang/protobuf/proto"
 )
 

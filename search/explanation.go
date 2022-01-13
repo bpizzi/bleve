@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/blevesearch/bleve/size"
+	"github.com/bpizzi/bleve/size"
 )
 
 var reflectStaticSizeExplanation int
